@@ -32,7 +32,7 @@ object Main extends App {
   val query1 = parseDF1.writeStream
     .queryName("Input: Kafka topic 'user-visit'")
     .format("console")
-    .option("truncate", false)
+    .option("truncate", value = false)
     .start()
 
   // transform
