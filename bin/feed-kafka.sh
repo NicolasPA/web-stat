@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# Feeds the Kafka topic with messages using a simple console producer.
+#
 
 date1=$(date +%Y-%m-%dT%H:%M:%S.%3NZ)
 sleep 1

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-
+#
 # Start Zookeeper, Kafka, create Kafka topic, describe topic
+#
 
 # start Zookeeper
 ${KAFKA_HOME}/bin/zookeeper-server-start.sh ${KAFKA_HOME}/config/zookeeper.properties &
