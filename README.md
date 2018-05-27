@@ -13,6 +13,7 @@ Basic web user statistics processing with Apache Kafka and Apache Spark structur
 ### Installing
 
 1. Clone repository
+ 
  ```git clone https://github.com/NicolasPA/web-stat.git```
 2. Get inside the created folder
  ```cd web-stat```
