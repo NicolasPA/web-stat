@@ -17,13 +17,13 @@ Basic web user statistics processing with Apache Kafka and Apache Spark structur
     git clone https://github.com/NicolasPA/web-stat.git
     ```
 2. Get inside the created folder
-    ```
-    cd web-stat
-    ```
+     ```
+     cd web-stat
+     ```
 3. Build the jar with SBT
-    ```
-    sbt package
-    ```
+     ```
+     sbt package
+     ```
   
 ### Test
 
